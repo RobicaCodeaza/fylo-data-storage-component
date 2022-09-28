@@ -1,0 +1,51 @@
+/* Landscape Tablets */
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+/* Tablets */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  main {
+    padding: 6.4rem;
+  }
+
+  .phone {
+    margin-right: 6.4rem;
+  }
+}
+@media (max-width: 48em) {
+  /* html {
+    font-size: 43.75%;
+  } */
+}
+
+/* Mobile */
+@media (max-width: 36em) {
+  main {
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+  .linear-gradient {
+    width: 70vw;
+    height: 60vh;
+    left: -25%;
+  }
+  .phone {
+    margin: 0 auto;
+  }
+  .details {
+    text-align: center;
+    width: 80vw;
+  }
+  .heading-primary {
+    font-size: 6.4rem;
+  }
+  .details-text {
+    font-size: 2rem;
+  }
+}
